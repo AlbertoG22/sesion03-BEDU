@@ -1,5 +1,5 @@
 body{
-    background-color: brown;
+    background-color: #fcfcf4;
 }
 
 .container-header{
@@ -9,14 +9,50 @@ body{
 }
 
 .container-section-promo{
-    display: flex;
+    /* display: flex; 
     width: 70%;
     margin: 100px auto;
-    align-items: center; /*alinear hijos al centro */
+    align-items: center; /*alinear hijos al centro  */
 }
 
 .item-article{
-    width: 30%;
+    /* width: 30%;
     height: 100px;
-    background-color: aquamarine;
+    background-color: aquamarine; */
+}
+.item-article p{
+    color: #343434;
+    font-family: Verdana;
+}
+
+.titulo-publicidad{
+    font-family: sans-serif;
+    color: #025157;
+}
+
+.form-publicidad p {
+    color: #025157;
+}
+
+.contenedor-boton {
+    height: 45px;
+    margin-bottom: 50px;
+}
+
+.contenedor-boton button{
+    color: white;
+    background-color: #025157;
+    border-radius: 0px 5px 5px 0px;
+    border: solid rgb(219, 219, 219) 1px;
+    height: 100%;
+    font-size: 14px;
+    margin-left: -4px;
+    padding: 15px 15px;
+}
+.contenedor-boton input{
+    border-radius: 5px 0px 0px 5px;
+    border: solid rgb(219, 219, 219) 1px;
+    height: 100%;
+    font-size: 14px;
+    padding-left: 15px;
 }
